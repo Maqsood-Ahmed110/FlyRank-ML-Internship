@@ -166,6 +166,7 @@
     transition:background 0.15s, color 0.15s;
   }
   .contact:hover{background:var(--ink); color:var(--paper);}
+  .links-row{display:flex; flex-wrap:wrap; gap:12px;}
 
   footer{
     padding:40px 0 60px;
@@ -224,7 +225,13 @@
       <div class="section-label">About</div>
       <h2>Bio</h2>
       <p class="bio">I'm an ML intern working on search content scoring — figuring out which pages actually need attention, using real data instead of guesswork.</p>
-      <a class="contact" href="mailto:your.email@example.com">→ email me to talk</a>
+      <div class="links-row">
+        <a class="contact" href="mailto:your.email@example.com">→ email me</a>
+        <a class="contact" href="https://www.linkedin.com/in/maqsood-ahmed-developer" target="_blank" rel="noopener">→ LinkedIn</a>
+        <a class="contact" href="https://github.com/Maqsood-Ahmed110" target="_blank" rel="noopener">→ GitHub</a>
+        <a class="contact" href="#" title="CV coming soon">→ CV (coming soon)</a>
+        <a class="contact" href="#" title="Booking link coming soon">→ Book a call (coming soon)</a>
+      </div>
     </section>
 
     <footer>
